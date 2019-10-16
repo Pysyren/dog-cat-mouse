@@ -2,6 +2,6 @@ function Dog(){
     this.stomach = [];
 }
 
-Dog.prototype.ead = function(cat){
+Dog.prototype.eat = function(cat){
     this.stomach.push(cat);
 }
